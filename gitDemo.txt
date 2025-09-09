@@ -25,3 +25,19 @@ git remote add origin https://github.com/ashish-git-hub/pythonProg.git
 
 pull request
 git pull origin main
+
+push request
+git status
+(red color shows that these files are in local folder but not available in Git repository)
+(green color means uploaded but not committed)
+
+to add files
+git add . 
+(here dot means just upload all files, else you specify name of the file in command to upload) 
+
+to commit 
+git commit -m "message"
+git push
+
+To push the current branch and set the remote as upstream
+    git push --set-upstream origin master (this will appear as output of previous command, just copy and paste on terminal
