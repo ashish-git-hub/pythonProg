@@ -1,0 +1,27 @@
+This is sample text
+
+to enable cmd from your editor
+go to path explorer of your folder and from there type cmd on search bar
+(it will provide a terminal with path of your editor (eg C:\Users\ashishseth\Desktop\tuteDude\python>)
+from here onward type the commands 
+
+
+for first time configure GitHub in our system
+git config --global user.name "ashish-git-hub"
+
+configure your email id as well 
+git config --global user.email "ashish.may13@gmail.com"
+
+
+for formatting and colors
+git config --global color.ui auto
+
+Mandatory commands 
+git init
+
+making remote connection to our application
+git remote add origin https://github.com/ashish-git-hub/pythonProg.git
+
+
+pull request
+git pull origin main
