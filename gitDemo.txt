@@ -1,0 +1,43 @@
+This is sample text
+
+to enable cmd from your editor
+go to path explorer of your folder and from there type cmd on search bar
+(it will provide a terminal with path of your editor (eg C:\Users\ashishseth\Desktop\tuteDude\python>)
+from here onward type the commands 
+
+
+for first time configure GitHub in our system
+git config --global user.name "ashish-git-hub"
+
+configure your email id as well 
+git config --global user.email "ashish.may13@gmail.com"
+
+
+for formatting and colors
+git config --global color.ui auto
+
+Mandatory commands 
+git init
+
+making remote connection to our application
+git remote add origin https://github.com/ashish-git-hub/pythonProg.git
+
+
+pull request
+git pull origin main
+
+push request
+git status
+(red color shows that these files are in local folder but not available in Git repository)
+(green color means uploaded but not committed)
+
+to add files
+git add . 
+(here dot means just upload all files, else you specify name of the file in command to upload) 
+
+to commit 
+git commit -m "message"
+git push
+
+To push the current branch and set the remote as upstream
+    git push --set-upstream origin master (this will appear as output of previous command, just copy and paste on terminal
